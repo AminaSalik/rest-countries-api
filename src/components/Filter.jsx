@@ -36,7 +36,7 @@ const Filter = ({ search, region, onSearchChange, onRegionChange }) => {
                         value={region}
                         onChange={handleSelectChange}
                         className="filter-by-region">
-                        <option hidden>Filter by Region</option>
+                        <option hidden>go to home</option>
                         <option value="home">Open this select menu</option>
                         <option value="Africa">Africa</option>
                         <option value="America">America</option>
